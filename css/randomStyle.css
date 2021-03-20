@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+.quote-container {
+    width: 100%;
+    height: 100%;
+}
+
+#quote {
+    padding: 20% 15% 0 15%;
+    display: block;
+}
+
+.author {
+    display: block;
+    text-align: right;
+    padding-top: 40px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    a {
+        font-size: 20px;
+    }
+
+    html, body {
+        font-size: 40px;
+    }
+
+    #quote {
+        padding: 12% 15% 0 15%;
+    }
+}
